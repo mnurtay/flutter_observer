@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// link to the tutorial
+// https://medium.flutterdevs.com/tracking-screen-transition-by-route-observer-flutter-dadd8773699c
+
 class MyRouteObserver extends RouteObserver<PageRoute<dynamic>> {
   @override
   void didPush(Route<dynamic> route, Route<dynamic>? previousRoute) {
